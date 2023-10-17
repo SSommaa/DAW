@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <input type="text" name="tu nombre" required="" maxlength="30">
+    <input type="text" name="tus apellidos" required="" maxlength="50">
+    <input type="date" name="fecha de nacimiento" required="">
+    <input type="text" name="Dirección" >
+    <input type="list" list="datalist">
+    <datalist id="datalist" >
+  		<option value="Madrid"></option>
+  		<option value="Barcelona"></option>
+  		<option value="Bilbao"></option>
+  		<option value="Sevilla"></option>
+		</datalist>
+
+	<input type="submit" >
+	<input type="text" name="codigo postal" maxlength="5" required pattern="[0-9]*">
+    
+
+</form>
+</body>
+</html>

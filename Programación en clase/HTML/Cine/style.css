@@ -1,0 +1,92 @@
+
+
+nav {
+	background: #000;
+	height: 80px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+
+nav a {
+	flex: 1;
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+table {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+  
+form {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+
+
+
+.seccion {
+	max-width: 800px;
+	width: 90%;
+	padding-top: 120px;
+
+}
+
+
+.personajes_edge{
+    width: 14%;
+    height: 660px;
+	float: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.personajes_edge.is-active {
+    scale: 1.1;
+    box-shadow: 0 0.2rem 1rem #0008;
+}
+
+.fondo{
+    background-image: url(Imagenes/edgerunners.jpg);
+   
+}
+.titulo {
+    color: transparent;
+    background-image: linear-gradient(to left, #FFD700, #7B68EE, #3498db, #2ecc71, #FFD700);    
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: color 3s linear infinite;
+    background-size: 500%;    
+    font-size: 100px;
+    text-align: center;
+	height: 10%;
+	margin: 0;
+	display: flex;
+}
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+p {
+    -webkit-text-fill-color: #fff;
+    margin: 10px;
+}
+body {
+    background-color: #000;
+    margin:0px;
+}
